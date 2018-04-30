@@ -16,15 +16,17 @@ public class FoldersFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_folders, null);
     }
 
-    /*@Override
-    public void onViewCreated(@NonNull View foldersview, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(foldersview, savedInstanceState);
 
-        foldersview.findViewById(R.id.toolsbutton).setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        view.findViewById(R.id.foldersbutton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(), "Tools and shit", Toast.LENGTH_SHORT);
+                Toast.makeText(getActivity(), " Folders Page", Toast.LENGTH_LONG).show();
             }
         });
-    }*/
+    }
+
 }

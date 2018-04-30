@@ -19,6 +19,18 @@ public class ToolsFragment extends Fragment {
 
     }
 
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        view.findViewById(R.id.toolsbutton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(), " Tools Page", Toast.LENGTH_LONG).show();
+            }
+        });
+    }
+
     /*@Override
     public void onViewCreated(@NonNull View toolsview, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(toolsview, savedInstanceState);
