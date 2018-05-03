@@ -1,7 +1,9 @@
-package com.example.rwtallant13.gallerybackup;
+package com.example.rwtallant13.gallerybackup.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
+import com.example.rwtallant13.gallerybackup.R;
 
 public class SettingsActivity extends AppCompatActivity {
 

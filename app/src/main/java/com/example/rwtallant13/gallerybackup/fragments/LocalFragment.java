@@ -1,4 +1,4 @@
-package com.example.rwtallant13.gallerybackup;
+package com.example.rwtallant13.gallerybackup.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;

@@ -1,4 +1,4 @@
-package com.example.rwtallant13.gallerybackup;
+package com.example.rwtallant13.gallerybackup.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -8,6 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
+
+import com.example.rwtallant13.gallerybackup.R;
 
 public class ToolsFragment extends Fragment {
 

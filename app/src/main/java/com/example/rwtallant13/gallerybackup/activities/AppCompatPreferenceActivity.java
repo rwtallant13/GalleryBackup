@@ -1,4 +1,4 @@
-package com.example.rwtallant13.gallerybackup;
+package com.example.rwtallant13.gallerybackup.activities;
 
 import android.content.res.Configuration;
 import android.os.Bundle;

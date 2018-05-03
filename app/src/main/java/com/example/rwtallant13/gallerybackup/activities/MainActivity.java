@@ -1,4 +1,4 @@
-package com.example.rwtallant13.gallerybackup;
+package com.example.rwtallant13.gallerybackup.activities;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -24,6 +24,10 @@ import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.Toast;
+
+import com.example.rwtallant13.gallerybackup.fragments.FoldersFragment;
+import com.example.rwtallant13.gallerybackup.R;
+import com.example.rwtallant13.gallerybackup.fragments.ToolsFragment;
 
 
 public class MainActivity extends AppCompatActivity
@@ -155,13 +159,11 @@ public class MainActivity extends AppCompatActivity
 
     public static class ImageAdapter extends BaseAdapter {
         private Context mContext;
-        private Integer[] mThumbIds = {
-                R.drawable.sample2, R.drawable.sample6,
-
-        };
+        private Integer[] mThumbIds;
 
         public ImageAdapter(Context c) {
             mContext = c;
+            mThumbIds = new Integer[]{ R.drawable.sample_2, R.drawable.sample_6 }; //Image Objects; name is filename; defined in activity_main.xml
         }
 
         public int getCount() {
